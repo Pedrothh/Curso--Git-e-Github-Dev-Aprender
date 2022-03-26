@@ -1,0 +1,84 @@
+## comando ajuda padrão
+git help
+
+# Específicos
+git help add
+git help commit
+git help <qualquer_comando_git>
+
+# Setar usuário
+git config --global user.name "Pedro Thomé" 
+
+# Setar email
+git config --global user.email pedro.th.dev@gmail.com
+
+# Setar editor
+git config --global core.editor vim
+
+# Setar ferramenta de merge
+git config --global merge.tool vimdiff
+
+# Setar arquivos a serem ignorados
+git config --global core.excludesfile ~/.gitignore
+
+#Listar configurações
+git config --list
+
+# Criar novo repositório
+git init
+
+# Verificar estado dos arquivos/diretórios
+git status
+
+## Adicionar arquivo/diretório (staged area)
+#Adicionar um arquivo em específico
+git add meu_arquivo.txt
+
+# Adicionar um diretório em específico
+git add meu_diretorio
+
+# Adicionar todos os arquivos/diretórios
+git add .
+
+# Comitar um arquivo
+git commit meu_arquivo.txt
+
+# Comitar vários arquivos
+git commit meu_arquivo.txt meu_outro_arquivo.txt
+
+# Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+# Remover arquivo
+git rm meu_arquivo.txt
+
+# Remover diretório
+git rm -r diretorio
+
+# Exibir histórico
+git log
+
+## Desfazendo operações
+# Desfazendo alteração local (working directory) - antes de ser add na staged area
+git checkout -- meu_arquivo.txt
+
+# Desfazendo alteração local (staging area) - se ja tiver sido add na staged area
+git reset HEAD meu_arquivo.txt
+
+# Exibir os repositórios remotos
+git remote
+
+git remote -v
+
+# Vincular repositório local com um repositório remoto
+git remote add origin https://github.com/Pedrothh/PrimeiroTeste
+
+# Exibir informações dos repositórios remotos
+git remote show origin
+
+## para o restante:
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
+
+
+
