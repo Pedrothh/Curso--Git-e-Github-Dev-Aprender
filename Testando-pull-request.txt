@@ -1,1 +1,15 @@
 Testando Pull Request
+
+Principais comandos git:
+
+git init							Inicializa um novo repositório
+git add .							adiciona os arquivos atuais ao próximo commit
+git status							verificar o status atual dos repositórios git
+git commit -m "mensagem"					cria um novo commit com uma mensagem
+git push							envia as att para a nuvem dna branch atualmente ativa
+git branch							listar e ver qual branch está ativa atualmente
+git checkout nome-da-branch					mudar para uma nova branch
+git checkou -b "nome da branch de origem" "nome da nova branch"	mudar e criar uma nova branch com base em outra
+git merge "branch a receber merge"				fazer o merge da branch ativa atualmente com outra branch
+git pull							atualiza a branch atualmente ativa
+touch .gitignore						cria o arquivo .gitignore
