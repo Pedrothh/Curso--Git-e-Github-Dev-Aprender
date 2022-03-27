@@ -12,4 +12,4 @@ git checkout nome-da-branch					mudar para uma nova branch
 git checkou -b "nome da branch de origem" "nome da nova branch"	mudar e criar uma nova branch com base em outra
 git merge "branch a receber merge"				fazer o merge da branch ativa atualmente com outra branch
 git pull							atualiza a branch atualmente ativa
-.
+touch .gitignore						cria o arquivo .gitignore
